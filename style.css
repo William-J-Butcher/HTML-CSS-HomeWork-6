@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Raleway:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1 {
+  color: #222;
+  font-family: Lato;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 58px;
+}
+
+h2 {
+  color: #222;
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39px;
+}
+
+h3 {
+  color: #222;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+h4 {
+  color: #222;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+p {
+  color: #9f9f9f;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+}
+
+.header {
+  min-height: 75px;
+  background: #222;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  gap: 41px;
+  margin-top: 18px;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  gap: 33px;
+  margin-top: 26px;
+}
+
+.btn-menu {
+  background-color: #222;
+  border: none;
+  cursor: pointer;
+}
+
+.logo-menu {
+  width: 44px;
+  height: 38px;
+}
+
+.magnifer-ico {
+  width: 26px;
+  height: 27px;
+}
+
+.navigation-ico {
+  width: 32px;
+  height: 23px;
+}
+
+.forma-ico {
+  width: 29px;
+  height: 29px;
+}
+
+.basket-ico {
+  width: 32px;
+  height: 29px;
+}
+
+.section-main-top {
+  background: #f1e4e6;
+  margin-bottom: 65px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+
+.slogan {
+  width: 730px;
+}
+
+.slogan-content {
+  border-left: 12px solid #f16d7f;
+  padding-left: 16px;
+}
+
+.slogan-content h1 {
+  text-transform: uppercase;
+}
+
+.slogan-content h2 {
+  text-transform: uppercase;
+}
+
+.section-main-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-cards-top {
+  max-width: 1140px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 96px;
+}
+
+.main-card-top-1 {
+  width: 360px;
+  height: 260px;
+  background-image: url(./img/Image-top-1.png);
+}
+
+.main-card-top-2 {
+  width: 360px;
+  height: 260px;
+  background-image: url(./img/Image-top-2.png);
+}
+
+.main-card-top-3 {
+  width: 360px;
+  height: 260px;
+  background-image: url(./img/Image-top-3.png);
+}
+
+.main-card-top-4 {
+  width: 1150px;
+  height: 180px;
+  grid-column: span 3;
+  grid-row: span 2;
+  background-image: url(./img/Image-top-4.png);
+}
+
+.bg-color {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 22, 22, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-top-content {
+  min-width: 154px;
+  height: 50px;
+}
+
+.main-cards-top h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #f16d7f;
+}
+
+.main-cards-top h4 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.main-cards-blockbottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.main-cards-bottom-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-cards-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.main-card-bottom {
+  width: 360px;
+}
+
+.main-card-bottom-content {
+  width: 360px;
+  height: 166px;
+  background-color: #f8f8f8;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.cost {
+  color: #f16d7f;
+}
+
+.main-cards-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.all-prod-btn {
+  width: 212px;
+  height: 48px;
+  border: solid 1px;
+  background-color: #fff;
+  border-color: #f26376;
+  color: #f26376;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
