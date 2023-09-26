@@ -173,18 +173,21 @@ p {
   width: 360px;
   height: 260px;
   background-image: url(./img/Image-top-1.png);
+  cursor: pointer;
 }
 
 .main-card-top-2 {
   width: 360px;
   height: 260px;
   background-image: url(./img/Image-top-2.png);
+  cursor: pointer;
 }
 
 .main-card-top-3 {
   width: 360px;
   height: 260px;
   background-image: url(./img/Image-top-3.png);
+  cursor: pointer;
 }
 
 .main-card-top-4 {
@@ -193,6 +196,7 @@ p {
   grid-column: span 3;
   grid-row: span 2;
   background-image: url(./img/Image-top-4.png);
+  cursor: pointer;
 }
 
 .bg-color {
@@ -277,4 +281,44 @@ p {
   font-size: 16px;
   font-weight: 400;
   cursor: pointer;
+}
+
+@media (max-width: 1140px) and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .menu {
+    padding: 0 32px;
+  }
+
+  .main-cards-top {
+    max-width: 735px;
+    gap: 19px;
+    margin-bottom: 110px;
+  }
+
+  .main-card-top-1 {
+    width: 232px;
+    height: 168px;
+  }
+
+  .main-card-top-2 {
+    width: 232px;
+    height: 168px;
+  }
+
+  .main-card-top-3 {
+    width: 232px;
+    height: 168px;
+  }
+
+  .main-card-top-4 {
+    width: 735px;
+    height: 116px;
+  }
+
+  .main-cards-bottom {
+    grid-template-columns: 1fr 1fr;
+  }
 }
